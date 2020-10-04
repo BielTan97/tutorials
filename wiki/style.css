@@ -1,0 +1,364 @@
+.body {
+       margin-left: 10px;
+       background-repeat: repeat-y;
+       background-size: 230px;
+}
+.header {
+       margin-top: -10px;
+       margin-left: 220px;
+       border: 1px solid #ece9e9;
+       border:none;
+       border-bottom-left-radius: 20px;
+       line-height: 1.5;
+       font-family: sans-serif;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       background-color: rgb(248, 249, 250);
+ }
+ .main {
+       margin-top: 30px;
+       margin-left: 220px;
+       border: 1px solid #ece9e9; 
+       border-top: none;
+       border-right: none;
+       line-height: 22px;
+       font-family: sans-serif;
+       padding-left: 20px;
+       padding-right: 15px;
+ }
+.h1 {
+       margin-right: 20px;
+       line-height: 0;
+       font-family: 'Comfortaa', cursive;
+}
+.search-input{
+       background-image: url(img/icon.svg);
+       background-repeat: no-repeat;
+       background-position: center left;
+       border: 1px solid #ece9e9; 
+       padding-left: 28px;
+       font-style: normal;
+       font-weight: normal;
+       font-style: 28px;
+       line-height: 21px;
+       color: #363636;
+       width: 200px;
+       height: 30px;
+       border-radius: 10px;
+
+}
+.navigation {
+       float: right;
+       border: 1px solid #ece9e9; 
+       font-size: 20px;
+       margin-right: 20px;
+       margin-top: 0px;
+       padding-bottom: 2px;
+       background-color: white;
+       border-radius: 10px;
+}
+.navigation-link {
+       text-decoration: none;
+       font-size: 18px;
+       line-height: 21px;
+       margin-right: 18px;
+       color: rgb(6, 69, 173);
+}
+.navigation-link:hover {
+       text-decoration: underline;
+}
+.logo{
+       margin-left: 20px;
+       margin-right: 20px;
+       border: none;
+}
+.wikipedia {
+       font-family: 'Lato', sans-serif;
+       text-align: center;
+       font-size: 33px;
+       font-weight: 100;
+       border: 1px solid #bbbbbb;
+       line-height: 1;
+       border: none;
+       
+}
+.free {
+       font-size: 17px;
+}
+.menu {
+       float: left; /* Обтекание справа */
+       width: 200px; /* Ширина колонки */
+       height: auto;
+       padding: 5px; /* Поля вокруг текста */
+       margin: 0px 10px 10px 0px; /* Значения отступов */
+       font-size: 18px;
+       margin-top: 2px;
+       
+}
+.menu div {
+       padding: 2px; /* Поля вокруг ссылок */
+}
+.menu a {
+       display: block; /* Отображать ссылку как блок */
+       padding: 2px; /* Поля вокруг ссылок */
+       margin: 1px; /* Отступы вокруг */
+       font-size: 1.2em; /* Размер текста */
+       text-decoration: none; /* Убрал подчеркивание,чтоб сделать его hover */
+       color: rgb(6, 69, 173);
+}
+.line {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+       margin-right: 0px;
+}
+.menu a:hover {
+       text-decoration: underline; /* Добавил подчеркивание при наведении */
+       margin: 0; /* Убираем поля */
+}
+.frame {
+       font-weight: bold;
+       border: 2px solid #bbbbbb;
+       border: none;
+       background-color: rgb(195, 214, 239);
+       padding-left: 27%;
+       padding-right: 27%;
+       padding-top: 2px;
+       padding-bottom: 2px;
+       margin-bottom: 100px;
+       border-radius: 10px;
+       font-family: 'Comfortaa', cursive;
+}
+.frame1 {
+       font-weight: bold;
+       border: 2px solid #bbbbbb;
+       border: none;
+       background-color: rgb(220, 220, 220);
+       padding-left: 16%;
+       padding-right: 17%;
+       padding-top: 1px;
+       padding-bottom: 3px;
+       border-radius: 10px;
+       font-family: 'Comfortaa', cursive;
+}
+.p2 {
+       float: right; /* Обтекание справа */
+       width: 450px; /* Ширина колонки */
+       height: auto;
+       margin: 0px 0px 10px 5px; /* Значения отступов */
+       border: 2px solid #bbbbbb; 
+       padding-top: 0px;
+       padding-right: 0px;
+       padding-left: 0px;
+       padding-bottom: 0px;
+       text-align: center;
+       background-color: rgb(248, 249, 250);
+}
+.line1 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+}
+.line2 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+       margin-right: 20px;
+       margin-left: 20px;
+}
+.img1 {
+       border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+       padding: 15px; /* Расстояние от картинки до рамки */
+       background: #e8fbff; /* Цвет фона */
+       margin-right: 5px; /* Отступ справа */
+       margin-bottom: 0px; /* Отступ снизу */
+       margin-left: 5px;
+       margin-top: 10px;
+}
+.ol {
+       width: 400px; /* Ширина колонки */
+       height: auto;
+       padding: 5px; /* Поля вокруг текста */
+       margin: 0px 0px 10px 5px; /* Значения отступов */
+       border: 2px solid #bbbbbb; 
+       background-color: rgb(248, 249, 250);
+}
+.p3 {
+       float: right; /* Обтекание справа */
+       width: 200px; /* Ширина колонки */
+       height: auto;
+       padding: 5px; /* Поля вокруг текста */
+       margin: 0px 0px 10px 5px; /* Значения отступов */
+       border: 2px solid #bbbbbb;
+       font-size: 12px;
+       text-align: center;
+       background-color: rgb(248, 249, 250);
+} 
+.img2 {
+       border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+       padding: 15px; /* Расстояние от картинки до рамки */
+       background: #e8fbff; /* Цвет фона */
+       margin-right: 5px; /* Отступ справа */
+       margin-bottom: 0px; /* Отступ снизу */
+       margin-left: 5px;
+       transition: 1s; /* Время эффекта */
+}
+.img2:hover {
+       transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.ul {
+       text-align: left;
+}
+.letter {
+       color: red; /* Красный цвет символов */ 
+       font-size: 200%; /* Размер шрифта в процентах */ 
+       font-family: serif; /* Шрифт с засечками */ 
+       position: relative; /* Относительное позиционирование */ 
+       top: 5px; /* Сдвиг сверху */ 
+}
+.content {
+       text-align: center;
+}
+.p4 {
+       float: left; /* Обтекание справа */
+       width: 280px; /* Ширина колонки */
+       height: 200px;
+       border: 2px solid #bbbbbb; 
+       padding-left: 10px;
+       padding-right: 20px;
+       padding-bottom: 90px;
+       padding-top: 0px;
+       border: none;
+       background-color: rgb(248, 249, 250);
+}
+.img3 {
+       border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+       padding: 10px; /* Расстояние от картинки до рамки */
+       background: #e8fbff; /* Цвет фона */
+       transition: 1s; /* Время эффекта */
+}
+.img3:hover {
+       transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.h4 {
+       margin-right: 20px;
+       line-height: 0;
+       padding-top: 20px;
+}
+.line5 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+       margin-right: 220px;
+}
+.line3 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+}
+.h2 {
+       margin-right: 20px;
+       line-height: 0; 
+       padding-top: 20px;
+}
+.line4 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+}
+.h3 {
+       margin-right: 20px;
+       line-height: 0; 
+       padding-top: 20px;
+}
+.h5 {
+       margin-right: 20px;
+       line-height: 0; 
+       padding-top: 20px;
+}
+.line6 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+}
+.p5 {
+       float: right; /* Обтекание справа */
+       width: 200px; /* Ширина колонки */
+       height: auto;
+       margin: 0px 20px 10px 5px; /* Значения отступов */
+       border: 2px solid #bbbbbb;
+       padding-right: 50px;
+       padding-left: 10px;
+       padding-top: 0px;
+       text-align: center;
+       background-color: rgb(248, 249, 250);
+}
+.img4 {
+       border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+       padding: 15px; /* Расстояние от картинки до рамки */
+       background: #e8fbff; /* Цвет фона */
+       margin-right: 5px; /* Отступ справа */
+       margin-bottom: 0px; /* Отступ снизу */
+       margin-left: 5px;
+       transition: 1s; /* Время эффекта */
+}
+.img4:hover {
+       transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.h6 {
+       margin-right: 20px;
+       line-height: 0;  
+       padding-top: 20px;
+}
+.line7 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+}
+.h7 {
+       margin-right: 20px;
+       line-height: 0;  
+       padding-top: 20px;
+}
+.line8 {
+       border-bottom: 2px groove #bbbbbb; /* Линия между ссылками */
+}
+.p6 {
+       float: left; /* Обтекание справа */
+       width: 200px; /* Ширина колонки */
+       height: auto;
+       padding: 5px; /* Поля вокруг текста */
+       margin: 0px 20px 10px 5px; /* Значения отступов */
+       border: 2px solid #bbbbbb;
+       padding-right: 50px;
+       text-align: left;
+       background-color: rgb(248, 249, 250);
+}
+.img5 {
+       border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+       padding: 15px; /* Расстояние от картинки до рамки */
+       background: #e8fbff; /* Цвет фона */
+       margin-right: 5px; /* Отступ справа */
+       margin-bottom: 0px; /* Отступ снизу */
+       margin-left: 5px;
+       transition: 1s; /* Время эффекта */
+}
+.img5:hover {
+       transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.p7 {
+       float: right; /* Обтекание справа */
+       width: 200px; /* Ширина колонки */
+       height: auto;
+       padding: 5px; /* Поля вокруг текста */
+       margin: 10px 30px 10px 5px; /* Значения отступов */
+       border: 2px solid #bbbbbb;
+       padding-right: 50px;
+       padding-left: 10px;
+       text-align: right;
+       background-color: rgb(248, 249, 250);
+}
+.img6 {
+       border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+       padding: 15px; /* Расстояние от картинки до рамки */
+       background: #e8fbff; /* Цвет фона */
+       margin-right: 5px; /* Отступ справа */
+       margin-bottom: 0px; /* Отступ снизу */
+       margin-left: 5px;
+       transition: 1s; /* Время эффекта */
+}
+.img6:hover {
+       transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.footer {
+       border: 1px solid #ece9e9; 
+       margin-top: 20px;
+       margin-left: 220px;
+       text-align: center;
+}
